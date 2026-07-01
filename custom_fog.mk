@@ -15,7 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
-PRODUCT_NAME := lineage_fog
+PRODUCT_NAME := custom_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
