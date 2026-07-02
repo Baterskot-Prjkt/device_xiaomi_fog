@@ -21,4 +21,6 @@
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0px</dimen>
+
+    <dimen name="status_bar_padding_top">4dp</dimen>
 </resources>
