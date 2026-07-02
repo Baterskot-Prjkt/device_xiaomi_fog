@@ -593,3 +593,8 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/fog/fog-vendor.mk)
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    remove-packages
+
