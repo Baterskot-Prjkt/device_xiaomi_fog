@@ -109,7 +109,9 @@ BOARD_KERNEL_CMDLINE += \
     service_locator.enable=1 \
     swiotlb=2048 \
     kpti=off \
-    kasan=off
+    kasan=off \
+    androidboot.init_fatal_reboot_target=panic \
+    androidboot.init_fatal_panic=true
 
 TARGET_NO_KERNEL_OVERRIDE := true
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
