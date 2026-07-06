@@ -243,5 +243,7 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 
+DEXPREOPT_DISABLE_MODULES += ANGLE
+
 # Inherit from the proprietary version
 include vendor/xiaomi/fog/BoardConfigVendor.mk
